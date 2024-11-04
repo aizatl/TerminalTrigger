@@ -1,0 +1,13 @@
+﻿<Window x:Class="TerminalFirst.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Terminal Status" Height="235" Width="900">
+    <Grid>
+        <Button x:Name="StatusButton" Content="Check Terminal Status" Width="163" Height="33" 
+                HorizontalAlignment="Left" VerticalAlignment="Top" Click="StatusButton_Click" Margin="36,32,0,0"/>
+        <TextBox x:Name="StatusTextBlock" Text="" HorizontalAlignment="Left" 
+                   VerticalAlignment="Bottom" Margin="237,0,0,120" Height="67" Width="257" AcceptsReturn="True"/>
+        <Button x:Name="StatusButton_Copy" Content="Check Terminal Status" Width="163" Height="33" 
+            HorizontalAlignment="Left" VerticalAlignment="Top" Click="StatusButton_Click" Margin="36,77,0,0"/>
+    </Grid>
+</Window>

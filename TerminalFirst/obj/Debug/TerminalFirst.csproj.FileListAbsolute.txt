@@ -1,0 +1,17 @@
+C:\Users\maiza\source\repos\TerminalFirst\TerminalFirst\bin\Debug\TerminalFirst.exe.config
+C:\Users\maiza\source\repos\TerminalFirst\TerminalFirst\bin\Debug\TerminalFirst.exe
+C:\Users\maiza\source\repos\TerminalFirst\TerminalFirst\bin\Debug\TerminalFirst.pdb
+C:\Users\maiza\source\repos\TerminalFirst\TerminalFirst\bin\Debug\Newtonsoft.Json.dll
+C:\Users\maiza\source\repos\TerminalFirst\TerminalFirst\bin\Debug\Newtonsoft.Json.xml
+C:\Users\maiza\source\repos\TerminalFirst\TerminalFirst\obj\Debug\TerminalFirst.csproj.AssemblyReference.cache
+C:\Users\maiza\source\repos\TerminalFirst\TerminalFirst\obj\Debug\MainWindow.baml
+C:\Users\maiza\source\repos\TerminalFirst\TerminalFirst\obj\Debug\MainWindow.g.cs
+C:\Users\maiza\source\repos\TerminalFirst\TerminalFirst\obj\Debug\App.g.cs
+C:\Users\maiza\source\repos\TerminalFirst\TerminalFirst\obj\Debug\TerminalFirst_MarkupCompile.cache
+C:\Users\maiza\source\repos\TerminalFirst\TerminalFirst\obj\Debug\TerminalFirst.g.resources
+C:\Users\maiza\source\repos\TerminalFirst\TerminalFirst\obj\Debug\TerminalFirst.Properties.Resources.resources
+C:\Users\maiza\source\repos\TerminalFirst\TerminalFirst\obj\Debug\TerminalFirst.csproj.GenerateResource.cache
+C:\Users\maiza\source\repos\TerminalFirst\TerminalFirst\obj\Debug\TerminalFirst.csproj.CoreCompileInputs.cache
+C:\Users\maiza\source\repos\TerminalFirst\TerminalFirst\obj\Debug\Terminal.09DFBA3C.Up2Date
+C:\Users\maiza\source\repos\TerminalFirst\TerminalFirst\obj\Debug\TerminalFirst.exe
+C:\Users\maiza\source\repos\TerminalFirst\TerminalFirst\obj\Debug\TerminalFirst.pdb
