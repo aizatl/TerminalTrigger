@@ -46,6 +46,7 @@ namespace TerminalFirst
                     hashString.Append(b.ToString("x2"));
                 }
                 return hashString.ToString();//
+                //test branch 1
             }
         }
 
