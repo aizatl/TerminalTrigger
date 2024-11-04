@@ -45,7 +45,7 @@ namespace TerminalFirst
                 {
                     hashString.Append(b.ToString("x2"));
                 }
-                return hashString.ToString();
+                return hashString.ToString();//
             }
         }
 
@@ -87,5 +87,9 @@ namespace TerminalFirst
             }
         }
 
+        private void SerialButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
