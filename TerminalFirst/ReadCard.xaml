@@ -1,0 +1,27 @@
+﻿<Window x:Class="TerminalFirst.ReadCard"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ReadCard" Height="450" Width="800" ResizeMode="NoResize">
+    <Grid Margin="20">
+        <!-- Label and ComboBox to select EmvPAN -->
+        <StackPanel>
+            <Label Content="Select EmvPAN:" FontSize="16"/>
+            <ComboBox x:Name="EmvPANComboBox" FontSize="16" Width="150">
+                <ComboBoxItem Content="True" IsSelected="True"/>
+                <ComboBoxItem Content="False"/>
+            </ComboBox>
+
+            <!-- Button to trigger Read Card -->
+            <Button Content="Read Card" FontSize="16" Margin="0,20,0,10" Width="150" Click="ReadCardBtn_Click"/>
+
+            <!-- TextBox to display response status -->
+            <Label Content="Response Status:" FontSize="16"/>
+            <TextBox x:Name="ResponseStatusTextBox" FontSize="16" IsReadOnly="True" Height="40" Margin="0,10,0,10"/>
+
+            <!-- TextBox to display full card result -->
+            <Label Content="Full Card Result:" FontSize="16"/>
+            <TextBox x:Name="FullCardResultTextBox" FontSize="16" IsReadOnly="True" Height="100" VerticalScrollBarVisibility="Auto"/>
+            <Button Content="Back" FontSize="16" Width="150" Click="BackBtn_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

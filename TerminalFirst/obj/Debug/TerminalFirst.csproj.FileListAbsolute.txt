@@ -15,3 +15,11 @@ C:\Users\maiza\source\repos\TerminalFirst\TerminalFirst\obj\Debug\TerminalFirst.
 C:\Users\maiza\source\repos\TerminalFirst\TerminalFirst\obj\Debug\Terminal.09DFBA3C.Up2Date
 C:\Users\maiza\source\repos\TerminalFirst\TerminalFirst\obj\Debug\TerminalFirst.exe
 C:\Users\maiza\source\repos\TerminalFirst\TerminalFirst\obj\Debug\TerminalFirst.pdb
+C:\Users\maiza\source\repos\TerminalFirst\TerminalFirst\obj\Debug\ReadCard.baml
+C:\Users\maiza\source\repos\TerminalFirst\TerminalFirst\obj\Debug\ReadCard.g.cs
+C:\Users\maiza\source\repos\TerminalFirst\TerminalFirst\obj\Debug\Settlement.baml
+C:\Users\maiza\source\repos\TerminalFirst\TerminalFirst\obj\Debug\Settlement.g.cs
+C:\Users\maiza\source\repos\TerminalFirst\TerminalFirst\obj\Debug\LastTrans.baml
+C:\Users\maiza\source\repos\TerminalFirst\TerminalFirst\obj\Debug\LastTrans.g.cs
+C:\Users\maiza\source\repos\TerminalFirst\TerminalFirst\obj\Debug\Sale.baml
+C:\Users\maiza\source\repos\TerminalFirst\TerminalFirst\obj\Debug\Sale.g.cs

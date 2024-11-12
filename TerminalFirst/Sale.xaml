@@ -1,0 +1,50 @@
+﻿<Window x:Class="TerminalFirst.Sale"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Sale" Height="600" Width="800" ResizeMode="NoResize">
+    <Grid Margin="20">
+        <StackPanel>
+            <!-- Amount entry (in cents) -->
+            <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+                <Label Content="Amount (in cents):" FontSize="16" Width="150"/>
+                <TextBox x:Name="AmountTextBox" FontSize="16" Width="200"/>
+            </StackPanel>
+
+            <!-- Transaction ID entry -->
+            <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+                <Label Content="Transaction ID:" FontSize="16" Width="150"/>
+                <TextBox x:Name="TxnIDTextBox" FontSize="16" Width="300"/>
+            </StackPanel>
+
+            <!-- Reference entry -->
+            <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+                <Label Content="Reference:" FontSize="16" Width="150"/>
+                <TextBox x:Name="ReferenceTextBox" FontSize="16" Width="300"/>
+            </StackPanel>
+
+            <!-- Reserver entry -->
+            <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+                <Label Content="Reserver:" FontSize="16" Width="150"/>
+                <TextBox x:Name="ReserverTextBox" FontSize="16" Width="300"/>
+            </StackPanel>
+
+            <!-- Perform Settlement button -->
+            <Button Content="Perform Sale" FontSize="16" Margin="0,20,0,10" Width="150" Click="SaleBtn_Click"/>
+
+            <!-- Acknowledge status display -->
+            <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+                <Label Content="Acknowledge Status:" FontSize="16" Width="150"/>
+                <TextBox x:Name="ResponseStatusTextBox" FontSize="16" IsReadOnly="True" Height="40" Width="300"/>
+            </StackPanel>
+
+            <!-- Full response display -->
+            <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+                <Label Content="Call-back Response:" FontSize="16" Width="150"/>
+                <TextBox x:Name="FullResultTextBox" FontSize="16" IsReadOnly="True" Height="100" Width="300" VerticalScrollBarVisibility="Auto"/>
+            </StackPanel>
+
+            <!-- Back button -->
+            <Button Content="Back" FontSize="16" Width="150" Margin="0,20,0,0" Click="BackBtn_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

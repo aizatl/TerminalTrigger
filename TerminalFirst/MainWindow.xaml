@@ -1,13 +1,21 @@
 ﻿<Window x:Class="TerminalFirst.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Terminal Status" Height="235" Width="900">
+        Title="Terminal Status" Height="535" Width="1050">
     <Grid>
         <Button x:Name="StatusButton" Content="Check Terminal Status" Width="163" Height="33" 
                 HorizontalAlignment="Left" VerticalAlignment="Top" Click="StatusButton_Click" Margin="36,32,0,0"/>
         <TextBox x:Name="StatusTextBlock" Text="" HorizontalAlignment="Left" 
-                   VerticalAlignment="Bottom" Margin="237,0,0,120" Height="67" Width="257" AcceptsReturn="True"/>
+                   VerticalAlignment="Top" Margin="237,33,0,0" Height="77" Width="614" AcceptsReturn="True" IsEnabled="False" FontSize="20"/>
         <Button x:Name="SerialButton" Content="Check Serial No" Width="163" Height="33" 
             HorizontalAlignment="Left" VerticalAlignment="Top" Click="SerialButton_Click" Margin="36,77,0,0"/>
+        <Button x:Name="Settlement" Content="Perform Settlement" Width="163" Height="33" 
+            HorizontalAlignment="Left" VerticalAlignment="Center" Click="SettlementButton_Click" Margin="36,0,0,0"/>
+        <Button x:Name="ReadCardBtn" Content="Read Card" Width="163" Height="33" 
+            HorizontalAlignment="Left" VerticalAlignment="Top" Click="ReadCardBtn_Click" Margin="36,190,0,0"/>
+        <!--<Button x:Name="GetLastTransBtn" Content="Get Last Transaction" Width="163" Height="33" 
+            HorizontalAlignment="Left" VerticalAlignment="Center" Click="GetLastTransBtn_Click" Margin="36,0,0,0"/>-->
+        <Button x:Name="SaleBtn" Content="Sales" Width="163" Height="33" 
+            HorizontalAlignment="Left" VerticalAlignment="Top" Click="SaleBtnBtn_Click" Margin="36,130,0,0"/>
     </Grid>
 </Window>

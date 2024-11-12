@@ -1,0 +1,21 @@
+﻿<Window x:Class="TerminalFirst.LastTrans"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ReadCard" Height="450" Width="800" ResizeMode="NoResize">
+    <Grid Margin="20">
+        <!-- Label and ComboBox to select EmvPAN -->
+        <StackPanel>
+            <Label Content="Enter TxnID:" FontSize="16"/>
+            <TextBox x:Name="txnID" FontSize="16" Height="40"/>
+
+            <!-- Button to trigger Read Card -->
+            <Button Content="Get Last Transaction" FontSize="16" Margin="0,20,0,10" Width="150" Click="GetLastTnxBtn_Click"/>
+
+            <!-- TextBox to display response status -->
+
+            <!-- TextBox to display full card result -->
+            <Label Content="Result details:" FontSize="16"/>
+            <TextBox x:Name="FullResultTextBox" FontSize="16" IsReadOnly="True" Height="159" VerticalScrollBarVisibility="Auto"/>
+        </StackPanel>
+    </Grid>
+</Window>
