@@ -7,7 +7,7 @@
             <!-- Amount entry (in cents) -->
             <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
                 <Label Content="Amount (in cents):" FontSize="16" Width="150"/>
-                <TextBox x:Name="AmountTextBox" FontSize="16" Width="200"/>
+                <TextBox x:Name="AmountTextBox" FontSize="16" Width="200" Text="10"/>
             </StackPanel>
 
             <!-- Transaction ID entry -->
@@ -35,6 +35,11 @@
             <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
                 <Label Content="Acknowledge Status:" FontSize="16" Width="150"/>
                 <TextBox x:Name="ResponseStatusTextBox" FontSize="16" IsReadOnly="True" Height="40" Width="300"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+                <Label Content="GetStatusResult:" FontSize="16" Width="150"/>
+                <TextBox x:Name="getStatusResponse" FontSize="16" IsReadOnly="True" Height="40" Width="300"/>
             </StackPanel>
 
             <!-- Full response display -->
